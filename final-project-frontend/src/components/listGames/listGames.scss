@@ -1,0 +1,87 @@
+
+
+
+.cardGame{
+    background-color: #fff;
+}
+
+.buttons{
+    
+    width: 128px;
+  
+}
+
+.frontImage{
+    width: 250px;
+}
+
+.title{
+    font-size: 1.05em;
+    font-weight: 700;
+}
+
+.pricer{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+
+.stars {
+    color: gold;
+}
+
+.scale-up-ver-top {
+    -webkit-animation: scale-up-ver-top 0.4s ease-in-out;
+    animation: scale-up-ver-top 0.4s ease-in-out;
+}
+
+@-webkit-keyframes scale-up-ver-top {
+    0% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+    }
+
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+    }
+}
+
+@keyframes scale-up-ver-top {
+    0% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+    }
+
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+    }
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 300ms;
+}
+
+.expandable{
+    min-height: 0;
+}
+
+ .open{
+    grid-template-rows: 1fr;
+    
+}
+
